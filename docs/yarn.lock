@@ -2385,15 +2385,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cose-base@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "cose-base@npm:2.2.0"
-  dependencies:
-    layout-base: ^2.0.0
-  checksum: 2e694f340bf216c71fc126d237578a4168e138720011d0b48c88bf9bfc7fd45f912eff2c603ef3d1307d6e3ce6f465ed382285a764a3a6620db590c5457d2557
-  languageName: node
-  linkType: hard
-
 "cosmiconfig@npm:^8.1.3":
   version: 8.1.3
   resolution: "cosmiconfig@npm:8.1.3"
@@ -2484,24 +2475,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cytoscape-fcose@npm:^2.1.0":
-  version: 2.2.0
-  resolution: "cytoscape-fcose@npm:2.2.0"
-  dependencies:
-    cose-base: ^2.2.0
-  peerDependencies:
-    cytoscape: ^3.2.0
-  checksum: 94ffe6f131f9c08c2a0a7a6ce1c6c5e523a395bf8d84eba6d4a5f85e23f33788ea3ff807540861a5f78a6914a27729e06a7e6f66784f4f28ea1c030acf500121
-  languageName: node
-  linkType: hard
-
-"cytoscape@npm:^3.23.0":
-  version: 3.28.1
-  resolution: "cytoscape@npm:3.28.1"
-  dependencies:
-    heap: ^0.2.6
-    lodash: ^4.17.21
-  checksum: d9fcb14e909931ebead0fffaf230be7302156166372b7f0d446fea96bc5dfed2c36024842a8d80cd8817d6120125422beaee4a1e9ece4ba53a9addc880116afd
+"cytoscape@npm:^3.28.1":
+  version: 3.30.2
+  resolution: "cytoscape@npm:3.30.2"
+  checksum: 45ec8f256b6bb59d505bf92f937d86d2547c62cd45e02e7e873320f321d39bb57261aad0dad06d0903f2af50decb367aa0a05193043da5332dc6feb37dce888c
   languageName: node
   linkType: hard
 
@@ -2962,10 +2939,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dompurify@npm:^3.0.5":
-  version: 3.0.8
-  resolution: "dompurify@npm:3.0.8"
-  checksum: cac660ccae15a9603f06a85344da868a4c3732d8b57f7998de0f421eb4b9e67d916be52e9bb2a57b2f95b49e994cc50bcd06bb87f2cb2849cf058bdf15266237
+"dompurify@npm:^3.0.5 <3.1.7":
+  version: 3.1.6
+  resolution: "dompurify@npm:3.1.6"
+  checksum: cc4fc4ccd9261fbceb2a1627a985c70af231274a26ddd3f643fd0616a0a44099bd9e4480940ce3655612063be4a1fe9f5e9309967526f8c0a99f931602323866
   languageName: node
   linkType: hard
 
@@ -3438,13 +3415,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"heap@npm:^0.2.6":
-  version: 0.2.7
-  resolution: "heap@npm:0.2.7"
-  checksum: b0f3963a799e02173f994c452921a777f2b895b710119df999736bfed7477235c2860c423d9aea18a9f3b3d065cb1114d605c208cfcb8d0ac550f97ec5d28cb0
-  languageName: node
-  linkType: hard
-
 "html-void-elements@npm:^3.0.0":
   version: 3.0.0
   resolution: "html-void-elements@npm:3.0.0"
@@ -3734,13 +3704,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"layout-base@npm:^2.0.0":
-  version: 2.0.1
-  resolution: "layout-base@npm:2.0.1"
-  checksum: ef93baf044f67c3680f4f3a6d628bf4c7faba0f70f3e0abb16e4811bed087045208560347ca749e123d169cbf872505ad84e11fb21b0be925997227e042c7f43
-  languageName: node
-  linkType: hard
-
 "lines-and-columns@npm:^1.1.6":
   version: 1.2.4
   resolution: "lines-and-columns@npm:1.2.4"
@@ -3766,13 +3729,6 @@ __metadata:
   version: 4.4.2
   resolution: "lodash.get@npm:4.4.2"
   checksum: e403047ddb03181c9d0e92df9556570e2b67e0f0a930fcbbbd779370972368f5568e914f913e93f3b08f6d492abc71e14d4e9b7a18916c31fa04bd2306efe545
-  languageName: node
-  linkType: hard
-
-"lodash@npm:^4.17.21":
-  version: 4.17.21
-  resolution: "lodash@npm:4.17.21"
-  checksum: eb835a2e51d381e561e508ce932ea50a8e5a68f4ebdd771ea240d3048244a8d13658acbd502cd4829768c56f2e16bdd4340b9ea141297d472517b83868e677f7
   languageName: node
   linkType: hard
 
@@ -4132,21 +4088,21 @@ __metadata:
   linkType: hard
 
 "mermaid@npm:^10.2.2":
-  version: 10.7.0
-  resolution: "mermaid@npm:10.7.0"
+  version: 10.9.3
+  resolution: "mermaid@npm:10.9.3"
   dependencies:
     "@braintree/sanitize-url": ^6.0.1
     "@types/d3-scale": ^4.0.3
     "@types/d3-scale-chromatic": ^3.0.0
-    cytoscape: ^3.23.0
+    cytoscape: ^3.28.1
     cytoscape-cose-bilkent: ^4.1.0
-    cytoscape-fcose: ^2.1.0
     d3: ^7.4.0
     d3-sankey: ^0.12.3
     dagre-d3-es: 7.0.10
     dayjs: ^1.11.7
-    dompurify: ^3.0.5
+    dompurify: ^3.0.5 <3.1.7
     elkjs: ^0.9.0
+    katex: ^0.16.9
     khroma: ^2.0.0
     lodash-es: ^4.17.21
     mdast-util-from-markdown: ^1.3.0
@@ -4155,7 +4111,7 @@ __metadata:
     ts-dedent: ^2.2.0
     uuid: ^9.0.0
     web-worker: ^1.2.0
-  checksum: 5cc4be164c3a4272240cd093369382d7880e7fe13cea0bc2966ae5a8160a7b42ff117c256ab942b7dcbd0f341d2e19780251b334e0b23e906404a108547eed82
+  checksum: 65468f6c7628d8c5ad640b3657e70d3408464d4b49e83c159ddc478ae733cb8f4ca545e16939cc8604e5f8902fb1d8bc1be0e00fa98a8bdf221d222e58d3342a
   languageName: node
   linkType: hard
 
